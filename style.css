@@ -1,0 +1,85 @@
+/* Fundal uniform pe toată pagina */
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, cornflowerblue, rgba(192, 204, 29, 0.749));
+}
+
+/* Header cu gradient propriu */
+.header {
+    background: linear-gradient(100deg, rgba(50, 3, 137, 0.821), rgba(192, 204, 29, 0.749));
+    border-radius: 20px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Titlu cu umbră */
+.header h1 {
+    margin: 0;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* Container butoane din header */
+.nav-buttons {
+    margin-top: 10px;
+}
+
+/* Butoane din header */
+.header button {
+    border-radius: 20px;
+    color: cornflowerblue;
+    background-color: antiquewhite;
+    margin: 5px;
+    border: 1px solid cornflowerblue;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.header button:hover {
+    background-color: rgb(240, 230, 200);
+}
+
+/* Container imagine + text pe același rând */
+.image-container {
+    display: flex;
+    align-items: center; /* aliniere verticală */
+    gap: 15px; /* spațiu între imagine și text */
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Imagine */
+.image-container img {
+    width: 200px;
+    height:200px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h3{
+    color: black;
+    margin: 20PX;
+    background-color:antiquewhite;
+    border-radius: 15PX;
+    text-align: center;
+}
+/* Text */
+.image-container pre {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    white-space: pre-wrap; /* text pe mai multe linii dacă e lung */
+}
+
+.headerA{
+    height: 100px;
+}
